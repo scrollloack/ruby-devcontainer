@@ -10,7 +10,7 @@
     "vscode": {
       "extensions": [
         "rebornix.ruby",
-        "shopify.ruby-lsp",
+        "Shopify.ruby-lsp",
         "eamodio.gitlens",
         "stripe.endsmart",
         "esbenp.prettier-vscode",
@@ -20,14 +20,15 @@
         "karunamurti.rspec-snippets",
         "2gua.rainbow-brackets",
         "oderwat.indent-rainbow",
-        "github.copilot"
+        "github.copilot",
+        "shahilkumar.docxreader"
       ]
     },
     "settings": {
       "files.eol": "\n",
       "[ruby]": {
         "editor": {
-          "defaultFormatter": "shopify.ruby-lsp",
+          "defaultFormatter": "Shopify.ruby-lsp",
           "formatOnSave": true,
           "tabSize": 2,
           "insertSpaces": true,
@@ -35,15 +36,8 @@
           "formatOnType": true
         }
       },
-      "[erb]": {
-        "editor": {
-          "formatOnSave": false
-        }
-      },
       "rubyLsp": {
-        "rubyVersionManager": {
-          "identifier": "rvm"
-        },
+        "rubyVersionManager": "rvm",
         "formatter": "rubocop",
         "bundleGemfile": ".ruby-lsp/Gemfile"
       },
