@@ -1,13 +1,16 @@
 {
-  "name": "rails-devcontainer",
+  "name": "practice-bdd-tdd",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
         "rebornix.ruby",
-        "Shopify.ruby-lsp",
+        "shopify.ruby-lsp",
         "castwide.solargraph",
         "eamodio.gitlens",
         "stripe.endsmart",
@@ -19,7 +22,7 @@
         "karunamurti.rspec-snippets",
         "2gua.rainbow-brackets",
         "oderwat.indent-rainbow",
-        "wallabyjs.wallaby-extension-pack"
+        "github.copilot"
       ]
     },
     "settings": {
@@ -29,7 +32,7 @@
       },
       "[ruby]": {
         "editor": {
-          "defaultFormatter": "Shopify.ruby-lsp",
+          "defaultFormatter": "shopify.ruby-lsp",
           "formatOnSave": true,
           "tabSize": 2,
           "insertSpaces": true,
