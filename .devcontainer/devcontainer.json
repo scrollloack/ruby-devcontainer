@@ -18,7 +18,7 @@
         "streetsidesoftware.code-spell-checker",
         "hridoy.rails-snippets",
         "karunamurti.rspec-snippets",
-	"2gua.rainbow-brackets",
+		"2gua.rainbow-brackets",
         "oderwat.indent-rainbow",
         "github.copilot",
         "shahilkumar.docxreader"
@@ -73,3 +73,4 @@
   ],
   "remoteUser": "vscode"
 }
+
